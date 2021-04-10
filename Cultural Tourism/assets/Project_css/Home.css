@@ -1,0 +1,225 @@
+html{
+  margin:0; padding: 0; box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+  width:100%;height:100%;
+}
+ body{
+  font-size: 17px;
+  /*background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.1)), url('../images/taj.jpg');*/
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header{
+  width: 100%; height:100vh;
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.1)), url('../images/Himalaya.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*nav .logo{
+
+  width:25%; text-align: center;
+}*/
+/*nav .logo{
+
+  width:25%; text-align: center;
+}
+nav  .menu{
+  width:40%; display: flex; justify-content: space-around;
+  font-size: 99%;
+}
+nav .menu li{
+  list-style: none;
+}
+nav  .menu li a {
+  width:25%; text-decoration: none; color:white;
+
+}
+nav  .menu li a:hover{
+  color:#00b894;
+}*/
+/*.menu{
+  width:40%; display: flex; justify-content: space-around;
+  font-size: 99%;
+   text-decoration: none; color:white; list-style: none;
+}*/
+
+
+.logo {
+      line-height: 60px;
+      position: fixed;
+      float: left;
+      margin: 16px 46px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
+}
+
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 60px;
+}
+
+nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+
+nav.black ul {
+      background: #000;
+}
+
+nav ul li {
+      display: inline-block;
+      padding: 16px 40px;;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+}
+
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+
+main{
+  padding-top: 20%;
+    text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+                 color:white;
+  width:100%;
+  height:72vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 97%;
+}
+
+section{
+  font-size: 97%;
+}
+/* .main-content-header{
+  font-size: 1rem;
+}*/
+
+section h2{
+  font-size:200%; font-weight: 200; letter-spacing: 3px;
+  text-shadow: 2px 2px 3px black;
+}
+section h1{
+  margin: 30px 0 20px 0;
+  font-size: 55px;
+  font-weight: 700;
+  text-shadow: 2px 1px 5px black;
+  text-transform: uppercase;
+}
+section p{
+  font-size: 25px;
+  word-spacing: 2px;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 1px black;
+}
+section a{
+  padding: 12px 30px;
+  border-radius: 4px;
+  outline:none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all .5s ease;
+}
+
+section .btnone{
+  background:#00b894;
+  color: #fff;
+  border-radius:20px;
+  text-decoration: none;
+}
+.btnone:hover{
+  background:transparent ;
+  border:4px solid #00b894;
+  color: #fff;
+  text-shadow: 1px 1px 1px black;
+}
+
+.change_content:after{
+  content: '';
+  animation: changetext 10s infinite linear;
+  color: #00b894;
+}
+
+@keyframes changetext{
+  0%{content:"Odisha";}
+  20%{content:"Kerela";}
+  40%{content:"Gujarat";}
+  60%{content:"West Bengal";}
+  80%{content:"Rajasthan";}
+  100%{content:"Uttarakhand";}
+
+}
+@media(max-width: 786px) {
+      /*header{
+        width: 100%; height:100vh;
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.1)), url('../images/Himalaya1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+      }*/
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+      }
+
+      nav ul {
+            max-height: 0px;
+            background: rgba(0,0,0,0.9);
+      }
+
+      nav.black ul {
+            background: rgba(0,0,0,0.9);
+      }
+
+      .showing {
+            max-height: 34em;
+      }
+
+      nav ul li {
+            box-sizing: border-box;
+            width: 80%;
+            padding: 24px;
+            text-align: left;
+            font-size: 
+      }
+
+      .menu-icon {
+            display: block;
+      }
+
+}
